@@ -1,3 +1,4 @@
+import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -28,7 +29,7 @@ const ProjectCard = ({
         <div className="relative w-full h-[230px]">
           <img
             src={image}
-            alt={name}
+            alt="project_image"
             className="w-full h-full object-cover rounded-2xl"
           />
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
@@ -38,19 +39,24 @@ const ProjectCard = ({
             >
               <img
                 src={github}
-                alt="github"
+                alt="source code"
                 className="w-1/2 h-1/2 object-contain"
               />
             </div>
           </div>
         </div>
+
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]"> {name} </h3>
           <p className="mt-2 text-secondary text-[14px]"> {description} </p>
         </div>
+
         <div className="mt-4 flex flexwrap gap-2">
           {tags.map((tag) => (
-            <p key={`tag.name`} className={`text-[14px] ${tag.color}`}>
+            <p
+              key={`${name}-${tag.name}`}
+              className={`text-[14px] ${tag.color}`}
+            >
               #{tag.name}
             </p>
           ))}
@@ -64,8 +70,8 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>My work</p>
-        <h2 className={styles.sectionHeadText}>Projects.</h2>
+        <p className={`${styles.sectionSubText} `}>My work</p>
+        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
       <div className="w-full flex">
