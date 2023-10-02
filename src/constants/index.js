@@ -20,8 +20,8 @@ import {
     tesla,
     shopify,
     carrent,
-    jobit,
-    tripguide,
+    Gym,
+    weather,
     threejs,
   } from "../assets";
   
@@ -219,37 +219,37 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Gym Exercises",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Online platform empowering users to search for diverse and engaging gym exercises, fostering a cycle of motivation, achievement, and joy in their fitness journey.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "rapidapi",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "MUI",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: Gym,
+      source_code_link: "https://github.com/igorkukric/Gym-Exercises-APP-REACT",
     },
     {
-      name: "Trip Guide",
+      name: "Weather APP",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Weather app offers 5-day forecasts for various cities, complete with precise time and dynamically changing images to reflect morning, day, evening, and night conditions.",
       tags: [
         {
-          name: "nextjs",
+          name: "plainJS",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "openweather",
           color: "green-text-gradient",
         },
         {
@@ -257,8 +257,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: weather,
+      source_code_link: "https://github.com/igorkukric/Weather-APP-Five-Days",
     },
   ];
   
