@@ -11,10 +11,10 @@ import {
     redux,
     tailwind,
     nodejs,
-    mongodb,
+    chakra,
+    MUI,
     git,
     figma,
-    docker,
     meta,
     starbucks,
     tesla,
@@ -46,11 +46,11 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Frontend Developer",
       icon: backend,
     },
     {
@@ -93,8 +93,8 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "MUI",
+      icon: MUI,
     },
     {
       name: "Three JS",
@@ -109,8 +109,8 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "chakra",
+      icon: chakra,
     },
   ];
   
