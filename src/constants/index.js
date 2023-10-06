@@ -17,12 +17,12 @@ import {
     figma,
     meta,
     starbucks,
-    tesla,
+    carhub,
     shopify,
-    carrent,
     Gym,
     weather,
     threejs,
+    udemy,
   } from "../assets";
   
   export const navLinks = [
@@ -116,29 +116,29 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
+      title: "JavaScript Developer",
       company_name: "Starbucks",
       icon: starbucks,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications using PlainJS and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Freelance Developer",
+      company_name: "Udemy",
+      icon: udemy,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Working on the development and upkeep of web applications utilizing React.js and associated technologies.",
+        "Engaging with interdisciplinary teams, such as designers, product managers, and fellow developers, to craft top-tier products.",
+        "Executing responsive design and verifying compatibility across different browsers.",
+        "Taking part in code evaluations and offering valuable input to fellow developers.",
       ],
     },
     {
@@ -148,10 +148,10 @@ import {
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Engaging in the development and upkeep of web applications utilizing React.js and associated technologies.",
+        "Working closely with diverse teams encompassing designers, product managers, and fellow developers to craft top-notch products.",
+        "Enforcing responsive design and verifying compatibility across various browsers.",
+        "Taking part in code reviews and offering valuable feedback to fellow developers, fostering an environment of constructive collaboration.",
       ],
     },
     {
@@ -161,10 +161,10 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Creating and sustaining web applications utilizing React.js and associated technologies.",
+        "Engaging with interdisciplinary teams, such as designers, product managers, and fellow developers, to produce top-tier products.",
+        "Executing adaptive design and verifying compatibility across various browsers.",
+        "Engaging in code evaluations and offering valuable input to fellow developers.",
       ],
     },
   ];
@@ -172,7 +172,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "I thought it was impossible to make a website as beautiful as our product, but Igor proved me wrong.",
       name: "Sara Lee",
       designation: "CFO",
       company: "Acme Co",
@@ -180,7 +180,7 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "I've never met a web developer who truly cares about their clients' success like Igor does.",
       name: "Chris Brown",
       designation: "COO",
       company: "DEF Corp",
@@ -188,7 +188,7 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After Igor optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
@@ -198,16 +198,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Car Hub",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Develop a web-based solution enabling users to easily search, book, and oversee car rentals from diverse providers, streamlining transportation arrangements for their needs.",
       tags: [
         {
-          name: "react",
+          name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "rapidapi",
           color: "green-text-gradient",
         },
         {
@@ -215,8 +215,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: carhub,
+      source_code_link: "https://github.com/igorkukric/Car_Showcase-NEXTjs",
     },
     {
       name: "Gym Exercises",
