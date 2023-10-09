@@ -29,6 +29,9 @@ import udemy from "./company/udemy.png"
 import carhub from "./carhub.png"
 import Gym from "./Gym.png"
 import weather from "./weather.png"
+import movie from "./movie.png"
+import recipe from "./recipe.png"
+import ai from "./ai.png"
 
 export {
   logo,
@@ -58,5 +61,8 @@ export {
   carhub,
   Gym,
   weather,
+  movie,
+  recipe,
+  ai,
   udemy,
 };
