@@ -163,69 +163,69 @@ import {
   ];
   
   const projects = [
-    {
-      name: "Car Hub",
-      description:
-        "Develop a web-based solution enabling users to easily search, book, and oversee car rentals from diverse providers, streamlining transportation arrangements for their needs.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "rapidapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carhub,
-      source_code_link: "https://github.com/igorkukric/Car_Showcase-NEXTjs",
-    },
-    {
-      name: "Netflex",
-      description:
-        "App provides a vast library of movies and TV shows, personalized recommendations, and an intuitive interface for an exceptional streaming experience.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "tmdb/firebase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "chakraui",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: movie,
-      source_code_link: "https://github.com/igorkukric/Movie-APP-REACT-FIREBASE",
-    },
-    {
-      name: "Gym Exercises",
-      description:
-        "Online platform empowering users to search for diverse and engaging gym exercises, fostering a cycle of motivation, achievement, and joy in their fitness journey.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "rapidapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "mui",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: Gym,
-      source_code_link: "https://github.com/igorkukric/Gym-Exercises-APP-REACT",
-    },
+    // {
+    //   name: "Car Hub",
+    //   description:
+    //     "Develop a web-based solution enabling users to easily search, book, and oversee car rentals from diverse providers, streamlining transportation arrangements for their needs.",
+    //   tags: [
+    //     {
+    //       name: "nextjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "rapidapi",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "tailwind",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: carhub,
+    //   source_code_link: "https://github.com/igorkukric/Car_Showcase-NEXTjs",
+    // },
+    // {
+    //   name: "Netflex",
+    //   description:
+    //     "App provides a vast library of movies and TV shows, personalized recommendations, and an intuitive interface for an exceptional streaming experience.",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "tmdb/firebase",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "chakraui",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: movie,
+    //   source_code_link: "https://github.com/igorkukric/Movie-APP-REACT-FIREBASE",
+    // },
+    // {
+    //   name: "Gym Exercises",
+    //   description:
+    //     "Online platform empowering users to search for diverse and engaging gym exercises, fostering a cycle of motivation, achievement, and joy in their fitness journey.",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "rapidapi",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "mui",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: Gym,
+    //   source_code_link: "https://github.com/igorkukric/Gym-Exercises-APP-REACT",
+    // },
     {
       name: "Weather Forecast",
       description:
