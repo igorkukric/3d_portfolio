@@ -15,6 +15,7 @@ import {
     MUI,
     git,
     figma,
+    mongodb,
     meta,
     starbucks,
     carhub,
@@ -22,7 +23,6 @@ import {
     Gym,
     weather,
     movie,
-    threejs,
     udemy,
     recipe,
     ai,
@@ -100,8 +100,8 @@ import {
       icon: MUI,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "MongoDB",
+      icon: mongodb,
     },
     {
       name: "git",
