@@ -16,8 +16,24 @@ const ProjectCard = ({
   image,
   source_code_link,
 }) => {
+
+  const fadeInVariants = {
+    initial: {
+      opacity: 0,
+      y: 20,
+    },
+    animate: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.6,
+        delay: index * 0.6, // Adjust the delay to control the staggered animation
+      },
+    },
+  };
+
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={fadeInVariants} initial="initial" animate="animate">
       <Tilt
         options={{
           max: 45,
@@ -67,16 +83,30 @@ const ProjectCard = ({
 };
 
 const Works = () => {
+  const fadeInVariants = {
+    initial: {
+      opacity: 0,
+      y: 20,
+    },
+    animate: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.4,
+        delay: 0.4, // Adjust the delay to control the staggered animation
+      },
+    },
+  };
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={fadeInVariants} initial="initial" animate="animate">
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
       <div className="w-full flex">
         <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
+        variants={fadeInVariants} initial="initial" animate="animate"
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           By using samples of my work from the actual world, the projects below
