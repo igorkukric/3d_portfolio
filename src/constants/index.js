@@ -25,7 +25,7 @@ import {
     movie,
     udemy,
     recipe,
-    ai,
+    threads,
   } from "../assets";
   
   export const navLinks = [
@@ -164,6 +164,27 @@ import {
   
   const projects = [
     {
+      name: "Threads MERN/Clerk",
+      description:
+      "Real-time chat in a MERN/Clerk Next.js app streamlines workplace communication, enhancing productivity and team connectivity.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "clerk",
+          color: "green-text-gradient",
+        },
+        {
+          name: "shadcn/tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: threads,
+      source_code_link: "https://github.com/igorkukric/Threads_MERN-Clerk",
+    },
+    {
       name: "Car Hub",
       description:
         "Develop a web-based solution enabling users to easily search, book, and oversee car rentals from diverse providers, streamlining transportation arrangements for their needs.",
@@ -268,27 +289,7 @@ import {
       image: recipe,
       source_code_link: "https://github.com/igorkukric/Food-Recipe-APP",
     },
-    {
-      name: "AI Image Generator",
-      description:
-      "Unleash your creativity effortlessly with my AI Image Generator app, utilizing advanced AI to transform concepts into stunning visuals at your fingertips.",
-      tags: [
-        {
-          name: "vanillajs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "huggingface",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: ai,
-      source_code_link: "https://github.com/igorkukric/AI-Image-Generator-APP",
-    },
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };

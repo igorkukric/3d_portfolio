@@ -31,7 +31,7 @@ import Gym from "./Gym.png"
 import weather from "./weather.png"
 import movie from "./movie.png"
 import recipe from "./recipe.png"
-import ai from "./ai.png"
+import threads from "./threads.png"
 
 export {
   logo,
@@ -63,6 +63,6 @@ export {
   weather,
   movie,
   recipe,
-  ai,
+  threads,
   udemy,
 };
