@@ -24,7 +24,7 @@ import {
     weather,
     movie,
     udemy,
-    recipe,
+    estore,
     threads,
   } from "../assets";
   
@@ -164,6 +164,27 @@ import {
   
   const projects = [
     {
+      name: "New Line Shop",
+      description:
+      "Shop confidently at New Line Shop with Next.js for speed, Stripe for security, Clerk for ease, and PrismaDB for efficiency. Your satisfaction is our priority.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "prismadb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "shadcn/tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: estore,
+      source_code_link: "https://github.com/igorkukric/ecommerce-store",
+    },
+    {
       name: "Threads MERN/Clerk",
       description:
       "Real-time chat in a MERN/Clerk Next.js app streamlines workplace communication, enhancing productivity and team connectivity.",
@@ -268,27 +289,7 @@ import {
       image: weather,
       source_code_link: "https://github.com/igorkukric/Weather-APP-Five-Days",
     },
-    {
-      name: "Food Recipe",
-      description:
-      "Discover diverse recipes, such as the savory homemade lasagna with fresh herbs and melted cheese layers that will tantalize your taste buds.",
-      tags: [
-        {
-          name: "vanillajs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "themealdb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: recipe,
-      source_code_link: "https://github.com/igorkukric/Food-Recipe-APP",
-    },
+    
     
   ];
   

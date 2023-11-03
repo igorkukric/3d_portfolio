@@ -30,7 +30,7 @@ import carhub from "./carhub.png"
 import Gym from "./Gym.png"
 import weather from "./weather.png"
 import movie from "./movie.png"
-import recipe from "./recipe.png"
+import estore from "./e-store.png"
 import threads from "./threads.png"
 
 export {
@@ -62,7 +62,7 @@ export {
   Gym,
   weather,
   movie,
-  recipe,
+  estore,
   threads,
   udemy,
 };
